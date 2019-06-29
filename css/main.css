@@ -1,16 +1,16 @@
 body{
 	font-family: 'Roboto', sans-serif;
-	padding: 0px;
+	padding: none;
 	background-color:#5C584B;
 }
 
 .wrapper{
 	height:100%;
 	margin-top: 80px;
-	margin-bottom: 80px;
+	margin-bottom: 0px;
 	margin-right: 80px;
 	margin-left: 80px;
-	padding: 5px;
+	padding: none;
 	background-color: #292726;
 	display: block;
 }
@@ -20,25 +20,33 @@ body{
 	padding: 0px;
 	margin-right: 50%;
 	margin-left: 50%;
-	text-align: center;
-	display: inline;
+	display:inline;
+	
+	
 	}
 .header h1{
 	font-size: 50px;
 	color: #8F7E4A;
+	display: block;
+	text-align:center;
 }
 
 .signin{
 	float: right;
 	display: inline;
-	margin-top:1%;
 }
+
+.signform{
+	
+}
+
 .signin input{
 	border: 3px solid #243436;
 	background-color: #4B5C58;
 	padding: 5px;
 	border-radius: 8px;
 	color: #ffffff;
+	display: inline;
 }
 .signin button{
 	color: #ffffff;
@@ -51,7 +59,43 @@ body{
 
 }
 
+.rejestracja {
+	color: #fff;
+	float: right;
+	margin-top: 8px;
+	margin-right: 7px;
+	display: block;
+	text-decoration: none;
+}
+
+.rejestracja:hover {
+	color: #8F754C;
+	float: right;
+	margin-top: 8px;
+	margin-right: 7px;
+	display: block;
+}
+
+.main {
+	margin-bottom: 0px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+
+.filler{
+	height: 250px;
+}
+
+
 .footer{
-	text-align: center;
-	color: #ffffff;
+	background-color: #24362F;
+	margin-bottom: none;
+	margin-left: 80px;
+	margin-right: 80px;
+	margin-top: none;
+	margin:none;
+	border: none;
+	height: 150px;
 }
