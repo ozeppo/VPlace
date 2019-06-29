@@ -1,0 +1,28 @@
+.form{
+  color: #ffffff;
+  background: #292726;
+}
+
+.form button{
+  background: #5C564C;
+  color: #ffffff;
+  border: none;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 25px;
+}
+
+.form input{
+  width: 75%;
+  padding: 12px 20px;
+  margin: 8px 10px;
+  box-sizing: border-box;
+  background: #8F754C;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+}
+
+.form p{
+  margin: 8px 15px;
+}

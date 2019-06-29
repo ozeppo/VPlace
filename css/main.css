@@ -1,1 +1,57 @@
-font-family: 'Roboto', sans-serif;
+body{
+	font-family: 'Roboto', sans-serif;
+	padding: 0px;
+	background-color:#5C584B;
+}
+
+.wrapper{
+	height:100%;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	margin-right: 80px;
+	margin-left: 80px;
+	padding: 5px;
+	background-color: #292726;
+	display: block;
+}
+
+
+.header{
+	padding: 0px;
+	margin-right: 50%;
+	margin-left: 50%;
+	text-align: center;
+	display: inline;
+	}
+.header h1{
+	font-size: 50px;
+	color: #8F7E4A;
+}
+
+.signin{
+	float: right;
+	display: inline;
+	margin-top:1%;
+}
+.signin input{
+	border: 3px solid #243436;
+	background-color: #4B5C58;
+	padding: 5px;
+	border-radius: 8px;
+	color: #ffffff;
+}
+.signin button{
+	color: #ffffff;
+	border-radius: 8px;
+	border: 3px solid #243436;
+	background-color: #8F7E4A;
+	text-decoration: none;
+	padding: 5px 15px;
+	text-align: center;
+
+}
+
+.footer{
+	text-align: center;
+	color: #ffffff;
+}
