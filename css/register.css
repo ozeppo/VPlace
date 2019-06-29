@@ -32,11 +32,11 @@ body{
   border-radius: 8px;
 }
 
-.form #name{
+#name{
   text-transform: capitalize;
 }
 
-.form #surname{
+#surname{
   text-transform: capitalize;
 }
 
@@ -46,4 +46,14 @@ body{
 
 #logo{
   text-align: center;
+}
+
+#accept{
+  border: none;
+  display: block;
+
+}
+
+#ToS{
+  color: #dbdbdb;
 }
