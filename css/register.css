@@ -1,6 +1,11 @@
-.form{
+body{
   color: #ffffff;
   background: #292726;
+  font-family: 'Roboto', sans-serif;
+}
+
+.form{
+  color: #ffffff;
 }
 
 .form button{
@@ -10,10 +15,14 @@
   padding: 15px;
   border-radius: 8px;
   font-size: 25px;
+  display: block;
+  margin-top: 25px;
+  margin-left: 10px;
 }
 
 .form input{
   width: 75%;
+  font-size: 20px;
   padding: 12px 20px;
   margin: 8px 10px;
   box-sizing: border-box;
@@ -23,6 +32,18 @@
   border-radius: 8px;
 }
 
+.form #name{
+  text-transform: capitalize;
+}
+
+.form #surname{
+  text-transform: capitalize;
+}
+
 .form p{
   margin: 8px 15px;
+}
+
+#logo{
+  text-align: center;
 }
