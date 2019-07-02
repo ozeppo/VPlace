@@ -12,11 +12,11 @@
 			<div class="signin">
 
 				<form class="signform" action="index.html" method="post">
-					<p>E-mail: </p> <input type="text" name="login" value="">
-					<p>Hasło: </p> <input type="password" name="password" value="">
-					<button type="button" name="button">Zaloguj</button>
+					E-mail: <input type="text" name="login" value="">
+					Hasło:  <input type="password" name="password" value="">
+					<input type="submit" name="" id="button" value="Zaloguj">
 					<br>
-					<a class="rejestracja" href="subpage\register.html">Nie masz jeszcze konta?</a>
+					<a class="rejestracja" href="subpage\register.php">Nie masz jeszcze konta?</a>
 
 				</form>
 

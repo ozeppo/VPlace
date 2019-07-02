@@ -8,18 +8,6 @@ body{
   color: #ffffff;
 }
 
-.form button{
-  background: #5C564C;
-  color: #ffffff;
-  border: none;
-  padding: 15px;
-  border-radius: 8px;
-  font-size: 25px;
-  display: block;
-  margin-top: 25px;
-  margin-left: 10px;
-}
-
 .form input{
   width: 75%;
   font-size: 20px;
@@ -30,6 +18,18 @@ body{
   color: #ffffff;
   border: none;
   border-radius: 8px;
+}
+
+.form #button{
+  background: #5C564C;
+  color: #ffffff;
+  border: none;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 25px;
+  display: block;
+  margin-top: 25px;
+  margin-left: 10px;
 }
 
 #name{

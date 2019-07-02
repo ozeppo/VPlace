@@ -21,7 +21,7 @@
             <p>Nazwisko: </p><input type="text" id="surname" name="" value="">
             <p>Hasło: </p><input type="password" name="password" value="">
             <input type="checkbox" name="accept" id="accept" value=""><p>Zgadzam się na </p><a id="ToS" href="#">Warunki Użytkowania</a>
-            <button type="button" name="button">Zarejestruj</button>
+            <input type="submit" name="" id="button" value="Zarejestruj">
           </form>
         </div>
       </div>
