@@ -12,8 +12,8 @@
 			<div class="signin">
 
 				<form class="signform" action="index.html" method="post">
-					E-mail: <input type="text" name="login" value="">
-					Hasło:  <input type="password" name="password" value="">
+					<input type="text" placeholder="E-Mail" name="login" value="">
+					<input type="password" placeholder="Hasło" name="password" value="">
 					<input type="submit" name="" id="button" value="Zaloguj">
 					<br>
 					<a class="rejestracja" href="subpage\register.php">Nie masz jeszcze konta?</a>

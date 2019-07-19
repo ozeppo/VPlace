@@ -16,10 +16,10 @@
       <div class="main">
         <div class="form">
           <form class="" action="index.html" method="post">
-            <p>E-Mail: </p><input type="email" name="Login" value="">
-            <p>Imię: </p><input type="text" id="name" name="name" value="">
-            <p>Nazwisko: </p><input type="text" id="surname" name="" value="">
-            <p>Hasło: </p><input type="password" name="password" value="">
+            <input type="email" placeholder="E-Mail" name="Login" value="">
+            <input type="text" placeholder="Imię" id="name" name="name" value="">
+            <input type="text" placeholder="Nazwisko" id="surname" name="" value="">
+            <input type="password" placeholder="Hasło" name="password" value="">
             <input type="checkbox" name="accept" id="accept" value=""><p>Zgadzam się na </p><a id="ToS" href="#">Warunki Użytkowania</a>
             <input type="submit" name="" id="button" value="Zarejestruj">
           </form>
