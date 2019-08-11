@@ -11,7 +11,7 @@
 		<div class="header">
 			<div class="signin">
 
-				<form class="signform" action="index.html" method="post">
+				<form class="signform" action="index.php" method="post">
 					<input type="text" placeholder="E-Mail" name="login" value="">
 					<input type="password" placeholder="Hasło" name="password" value="">
 					<input type="submit" name="" id="button" value="Zaloguj">

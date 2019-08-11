@@ -15,7 +15,7 @@
 
       <div class="main">
         <div class="form">
-          <form class="" action="index.html" method="post">
+          <form class="" action="index.php" method="post">
             <input type="email" placeholder="E-Mail" name="Login" value="">
             <input type="text" placeholder="Imię" id="name" name="name" value="">
             <input type="text" placeholder="Nazwisko" id="surname" name="" value="">
