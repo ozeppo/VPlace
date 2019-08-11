@@ -20,7 +20,8 @@
             <input type="text" placeholder="Imię" id="name" name="name" value="">
             <input type="text" placeholder="Nazwisko" id="surname" name="" value="">
             <input type="password" placeholder="Hasło" name="password" value="">
-            <input type="checkbox" name="accept" id="accept" value=""><p>Zgadzam się na </p><a id="ToS" href="#">Warunki Użytkowania</a>
+            <input type="checkbox" name="accept" id="accept" value="">
+            Zgadzam się na <a id="ToS" href="#">Warunki Użytkowania</a>
             <input type="submit" name="" id="button" value="Zarejestruj">
           </form>
         </div>

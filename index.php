@@ -26,7 +26,7 @@
 
 			<br>
 
-			<h1>LOGO</h1>
+			<h1>VPlace</h1>
 
 		</div>
 
@@ -35,7 +35,7 @@
 
 
 		<div class="main">
-			<h2>Witaj na NAZWA</h2>
+			<h2>Witaj na VPlace</h2>
 
 <p>Lorem ipsum dolor sit amet,
  consectetur adipiscing elit. Phasellus dignissim feugiat lacus,
@@ -99,7 +99,7 @@
 	</div>
 
 	<div class="footer">
-			<p>Nazwa 2019 &copy</p>
+			<p>VPlace 2019 &copy</p>
 	</div>
 
   </body>
