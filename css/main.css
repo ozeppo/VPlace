@@ -8,7 +8,6 @@ body{
 .wrapper{
 	height:100%;
 	margin-top: 80px;
-	margin-bottom: 0px;
 	margin-right: 80px;
 	margin-left: 80px;
 	padding: none;
@@ -32,13 +31,15 @@ body{
 	text-align:center;
 }
 
+.logo{
+	float: left;
+	margin-left: 15px;
+	margin-top: 15px;
+}
+
 .signin{
 	float: right;
 	display: inline;
-}
-
-.signform{
-
 }
 
 .signin input{
@@ -49,6 +50,7 @@ body{
 	color: #ffffff;
 	display: inline;
 }
+
 .signin .button{
 	color: #ffffff;
 	border-radius: 8px;
@@ -57,28 +59,25 @@ body{
 	text-decoration: none;
 	padding: 5px 15px;
 	text-align: center;
+}
+
+.signin .button:hover{
+		color: #cfcfcf;
+		border-radius: 8px;
+		border: 3px solid #243436;
+		background-color: #635733;
+		text-decoration: none;
+		padding: 5px 15px;
+		text-align: center;
 
 }
 
-.rejestracja {
-	color: #fff;
-	float: right;
-	margin-top: 8px;
-	margin-right: 7px;
-	display: block;
-	text-decoration: none;
-}
-
-.rejestracja:hover {
-	color: #8F754C;
-	float: right;
-	margin-top: 8px;
-	margin-right: 7px;
-	display: block;
-}
+ .signin .RegisterForm{
+	 float: center;
+	 display: inline;
+ }
 
 .main {
-	margin-bottom: 0px;
 	margin-right: 10px;
 	margin-left: 10px;
 	margin-top: 10px;

@@ -9,6 +9,7 @@
   <body>
 	<div class="wrapper">
 		<div class="header">
+      <img class="logo" height="64px" width="64px" src="files/img/VPlace.png" alt="ERROR">
 			<div class="signin">
 
 				<form class="signform" action="index.php" method="post">
@@ -35,16 +36,19 @@
 
 		<div class="main">
 			<h2>Rejestracja</h2>
+      <div class="signin">
 
-      <form class="" action="index.php" method="post">
-        <input type="email" placeholder="E-Mail" name="Login" value=""><br>
-        <input type="text" placeholder="Imię" id="name" name="name" value=""><br>
-        <input type="text" placeholder="Nazwisko" id="surname" name="" value=""><br>
-        <input type="password" placeholder="Hasło" name="password" value=""><br>
-        <input type="checkbox" name="accept" id="accept" value="">
-        Zgadzam się na <a id="ToS" href="#">Warunki Użytkowania</a><br>
-        <input type="submit" name="" class="button" value="Zarejestruj"><br>
-      </form>
+        <form class="RegisterForm" action="index.php" method="post">
+          <input type="email" placeholder="E-Mail" name="Login" value=""><br>
+          <input type="text" placeholder="Imię" id="name" name="name" value=""><br>
+          <input type="text" placeholder="Nazwisko" id="surname" name="" value=""><br>
+          <input type="password" placeholder="Hasło" name="password" value=""><br>
+          <input type="checkbox" name="accept" id="accept" value="">
+          Zgadzam się na <a id="ToS" href="#">Warunki Użytkowania</a><br>
+          <input type="submit" name="" class="button" value="Zarejestruj"><br>
+        </form>
+
+      </div>
 
 			<div class="filler">
 
