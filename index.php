@@ -4,7 +4,7 @@
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <meta charset="utf-8">
-    <title>TYTUŁ</title>
+    <title>VPlace - Zaloguj się</title>
   </head>
   <body>
 	<div class="wrapper">
