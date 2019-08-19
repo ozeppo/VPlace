@@ -1,0 +1,27 @@
+.post{
+
+}
+
+.post-footer img{
+  float: left;
+}
+
+.post-footer #post-unlikes-counter-icon,#post-unlikes-counter,#post-likes-counter-icon,#post-likes-counter{
+  float: left;
+  margin: 15px;
+}
+
+.post-footer #post-comments-counter-icon,#post-comments-counter{
+  float: right;
+  margin: 15px;
+}
+
+.post-header #post-author-avatar,#post-author-name{
+  float: left;
+  margin: 15px;
+  font-size: 25px;
+}
+
+.post-content{
+  text-align: center;
+}
