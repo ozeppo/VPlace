@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="pl" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker.min.css">
+  <style>
+    .parallax-window {
+      min-height: 400px;
+      background: transparent;
+    }
+
+    .parallax-box {
+      min-height: 100px;
+      background-color: #343a40;
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-dark bg-dark" style="position: sticky; ">
+    <a class="navbar-brand" href="#">
+      <img src="https://media.discordapp.net/attachments/610587037640163359/610592923041660928/VPlace.png" width="30" height="30" class="d-inline-block align-top" alt="VPlace">
+    </a>
+    <form class="form-inline">
+      <div class="input-group my-2 mr-sm-2">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="basic-addon1">
+            <ion-icon name="mail"></ion-icon>
+          </span>
+        </div>
+        <input type="text" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="basic-addon1">
+      </div>
+      <div class="input-group my-2 mr-sm-2">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="basic-addon1">
+            <ion-icon name="lock"></ion-icon>
+          </span>
+        </div>
+        <input type="password" class="form-control" placeholder="Hasło" aria-label="Hasło" aria-describedby="basic-addon1">
+      </div>
+      <button class="btn btn-outline-success my-2 mr-md-2" type="submit">Zaloguj się</button>
+    </form>
+  </nav>
+
+  <div class="parallax-window" data-parallax="scroll" data-image-src="virtual-city.png">
+    <h1 class="display-1 text-light text-center m-0" style="padding-top: 6rem">Witaj na VPlace</h1>
+  </div>
+  <div class="parallax-box">
+    <blockquote class="blockquote text-left p-3 text-light m-0">
+      <h1 class="display-4">Czuj się jak u siebie</h1>
+      <p class="lead">
+        Gwarantujemy że będziecie się czuć jak u siebie a przesiadka z innego portalu nie będzie bolesna
+      </p>
+    </blockquote>
+  </div>
+
+  <div class="parallax-window" data-parallax="scroll" data-image-src="virtual-planet.png">
+    <h1 class="display-4 text-light text-center m-0">Nie masz konta? Zarejestruj się</h1>
+    <div class="row">
+      <div class="col-sm-4"></div>
+      <div class="col-sm-4">
+        <form class="text-light pb-3">
+          <div class="form-group">
+            <label for="regEmail">Email</label>
+            <input type="email" class="form-control" id="regEmail" aria-describedby="emailHelp" placeholder="Wpisz swój email">
+          </div>
+          <div class="form-group">
+            <label for="regText1">Imię</label>
+            <input type="text" class="form-control" id="regText1" aria-describedby="emailHelp" placeholder="Twoje imię">
+          </div>
+          <div class="form-group">
+            <label for="regText2">Nazwisko</label>
+            <input type="text" class="form-control" id="regText2" aria-describedby="emailHelp" placeholder="Twoje nazwisko">
+          </div>
+          <div class="form-group">
+            <label for="regPass">Hasło</label>
+            <input type="password" class="form-control" id="regPass" placeholder="Hasło">
+          </div>
+          <div class="form-group">
+            <label for="regPassR">Powtórz hasło</label>
+            <input type="password" class="form-control" id="regPassR" placeholder="Powtórz hasło">
+          </div>
+          <div class="form-group">
+            <label for="regDate">Data urodzenia</label>
+            <input type="text" class="form-control data" id="regDate" placeholder="yyyy-mm-dd">
+          </div>
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="regCheck">
+            <label class="form-check-label" for="regCheck">Akceptuje regulamin</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Zarejestruj się</button>
+        </form>
+      </div>
+      <div class="col-sm-4"></div>
+    </div>
+  </div>
+  <div class="parallax-box">
+    <blockquote class="blockquote text-right p-3 text-light m-0">
+      <h1 class="display-4">Oczy nie bolą?</h1>
+      <p class="lead">
+        U nas oczy naszych użytkowników są najważniejsze więc i ciemny motyw tutaj to standard
+      </p>
+    </blockquote>
+  </div>
+
+  <div class="parallax-window" data-parallax="scroll" data-image-src="virtual-chain.png"></div>
+  <div class="parallax-box">
+    <blockquote class="blockquote text-left p-3 text-light m-0">
+      <h1 class="display-4">Czuj się bezpiecznie</h1>
+      <p class="lead">
+        Gwarantujemy bezpieczeństwo w naszym serwisie bez jakichkolwiek wycieków danych
+      </p>
+    </blockquote>
+  </div>
+
+  <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="parallax.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment-with-locales.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/js/bootstrap-datetimepicker.min.js"></script>
+
+  <script>
+    $('#regDate').datetimepicker({
+      format: "YYYY-MM-DD",
+      locale: "pl"
+    });
+
+  </script>
+</body>
+
+</html>
