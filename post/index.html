@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="pl" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      background: #343a40;
+      color: #ffffff;
+    }
+
+    .post {
+      width: 500px;
+      position: relative;
+      margin: 0 auto;
+      border: 1px solid rgba(0, 0, 0, 0.125);
+      border-radius: 1px;
+      min-height: 100px;
+    }
+
+    .post .header {
+      padding: 10px;
+    }
+
+    .post .header a {
+      text-decoration: none;
+      color: #ffffff;
+    }
+
+    .post .header a img {
+      display: inline;
+      vertical-align: middle;
+      border: 3px solid rgba(0, 0, 0, 0.125);
+      border-radius: 100%;
+    }
+
+    .post .header a h4 {
+      display: inline;
+      margin: 0;
+      padding: 0;
+    }
+
+    .post .header p {
+      float: right;
+      color: rgba(256, 256, 256, 0.250);
+      font-size: 12px;
+    }
+
+    .post .content {
+      padding: 0 10px;
+    }
+
+    .post .footer {
+      padding: 10px;
+    }
+
+    .post .footer p {
+      padding: 0 10px 0 0;
+      margin: 0;
+      display: inline;
+    }
+
+    .post .footer p:last-child {
+      padding: 0;
+      float: right;
+    }
+    
+    .post .content .img {
+      display: grid;
+      grid-template-columns: 50% 50%;
+      grid-template-rows: 100px 100px;
+      margin-top: 10px;
+      width: 100%;
+      border: 1px solid rgba(0,0,0,0.250);
+      border-radius: 10px;
+    }
+  
+    .post .content .img[imgs='4'] post-img:nth-child(1) {
+      display: block;
+      border-top-left-radius: 10px;
+      margin: 0 1px 1px 0;
+      background-clip: padding-box;
+      background-size: cover;
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 1;
+      grid-row-end: 2;
+    }
+    
+    .post .content .img[imgs='4'] post-img:nth-child(2) {
+      display: block;
+      border-top-right-radius: 10px;
+      margin: 0 0 1px 1px;
+      background-clip: padding-box;
+      background-size: cover;
+      grid-column-start: 2;
+      grid-column-end: 3;
+      grid-row-start: 1;
+      grid-row-end: 2;
+    }
+    
+    .post .content .img[imgs='4'] post-img:nth-child(3) {
+      display: block;
+      border-bottom-left-radius: 10px;
+      margin: 1px 1px 0 0;
+      background-clip: padding-box;
+      background-size: cover;
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 2;
+      grid-row-end: 3;
+    }
+    
+    .post .content .img[imgs='4'] post-img:nth-child(4) {
+      display: block;
+      border-bottom-right-radius: 10px;
+      margin: 1px 0 0 1px;
+      background-clip: padding-box;
+      background-size: cover;
+      grid-column-start: 2;
+      grid-column-end: 3;
+      grid-row-start: 2;
+      grid-row-end: 3;
+      
+    }
+    
+    .post .content .img post-img:nth-child(4) .more {
+      background-color: rgba(0,0,0,0.750);
+      height: 100%;
+      display: grid;
+      font-size: 50px;
+      border-bottom-right-radius: 10px;
+    }
+    
+    .post .content .img post-img:nth-child(4) .more i {
+      margin: auto;
+      font-style: normal;
+    }
+    
+    .post .content .img post-img {
+      transition: 0.1s;
+    }
+    
+    .post .content .img post-img:hover {
+      transform: scale(1.1, 1.1) ;
+      transform: translateX(1);
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/icon.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="post">
+    <div class="header">
+      <a href="#">
+        <img src="unnamed.jpg" width="32px" height="32px" alt="">
+        <h4>AiNet01001</h4>
+      </a>
+      <p>19.08.2019 21:19</p>
+    </div>
+    <div class="content">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum unde molestias tempore ipsam qui eveniet obcaecati, deserunt beatae ad aut. Vitae consequatur incidunt ut quibusdam ea eos at possimus minima.
+      <div class="img" imgs="4" more>
+        <post-img style="background-image: url(unnamed.jpg)"></post-img>
+        <post-img style="background-image: url(virtual-chain.png)"></post-img>
+        <post-img style="background-image: url(virtual-city.png)"></post-img>
+        <post-img style="background-image: url(virtual-planet.png)">
+          <div class="more">
+            <i>+3</i>
+          </div>
+        </post-img>
+        
+      </div>
+    </div>
+    <div class="footer">
+      <p>
+        <i class="thumbs up icon"></i>
+        24K+
+      </p>
+      <p>
+        <i class="thumbs down outline icon"></i>
+        24K+
+      </p>
+      <p>
+        10K+
+        <i class="comments outline icon"></i>
+      </p>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+</body>
+
+</html>
