@@ -13,7 +13,7 @@
     .post {
       width: 500px;
       position: relative;
-      margin: 0 auto;
+      margin: 10px auto;
       border: 1px solid rgba(0, 0, 0, 0.125);
       border-radius: 1px;
       min-height: 100px;
@@ -194,11 +194,6 @@
       transition: 0.1s;
     }
     
-    .post .content .img post-img:hover {
-      transform: scale(1.1) ;
-      transform: translateX(1);
-    }
-    
     .post .content img {
       border-radius: 10px;
       width: 100%;
@@ -210,6 +205,67 @@
 </head>
 
 <body>
+<div class="post">
+    <div class="header">
+      <a href="#">
+        <img src="unnamed.jpg" width="32px" height="32px" alt="">
+        <h4>AiNet01001</h4>
+      </a>
+      <p>19.08.2019 21:19</p>
+    </div>
+    <div class="content">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum unde molestias tempore ipsam qui eveniet obcaecati, deserunt beatae ad aut. Vitae consequatur incidunt ut quibusdam ea eos at possimus minima.
+      <img src="unnamed.jpg" alt="">
+    </div>
+    <div class="footer">
+      <p>
+        <i class="thumbs up icon"></i>
+        24K+
+      </p>
+      <p>
+        <i class="thumbs down outline icon"></i>
+        24K+
+      </p>
+      <p>
+        10K+
+        <i class="comments outline icon"></i>
+      </p>
+    </div>
+  </div>
+  
+ <div class="post">
+    <div class="header">
+      <a href="#">
+        <img src="unnamed.jpg" width="32px" height="32px" alt="">
+        <h4>AiNet01001</h4>
+      </a>
+      <p>19.08.2019 21:19</p>
+    </div>
+    <div class="content">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum unde molestias tempore ipsam qui eveniet obcaecati, deserunt beatae ad aut. Vitae consequatur incidunt ut quibusdam ea eos at possimus minima.
+      
+      <div class="img" imgs="2">
+        <post-img style="background-image: url(unnamed.jpg)"></post-img>
+        <post-img style="background-image: url(virtual-chain.png)"></post-img>
+        
+      </div>
+    </div>
+    <div class="footer">
+      <p>
+        <i class="thumbs up icon"></i>
+        24K+
+      </p>
+      <p>
+        <i class="thumbs down outline icon"></i>
+        24K+
+      </p>
+      <p>
+        10K+
+        <i class="comments outline icon"></i>
+      </p>
+    </div>
+  </div>
+  
   <div class="post">
     <div class="header">
       <a href="#">
@@ -220,17 +276,50 @@
     </div>
     <div class="content">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum unde molestias tempore ipsam qui eveniet obcaecati, deserunt beatae ad aut. Vitae consequatur incidunt ut quibusdam ea eos at possimus minima.
-      <!--<img src="unnamed.jpg" alt="">-->
       
       <div class="img" imgs="3">
         <post-img style="background-image: url(unnamed.jpg)"></post-img>
         <post-img style="background-image: url(virtual-chain.png)"></post-img>
         <post-img style="background-image: url(virtual-city.png)"></post-img>
-        <!--<post-img style="background-image: url(virtual-planet.png)">
+        
+      </div>
+    </div>
+    <div class="footer">
+      <p>
+        <i class="thumbs up icon"></i>
+        24K+
+      </p>
+      <p>
+        <i class="thumbs down outline icon"></i>
+        24K+
+      </p>
+      <p>
+        10K+
+        <i class="comments outline icon"></i>
+      </p>
+    </div>
+  </div>
+  
+  <div class="post">
+    <div class="header">
+      <a href="#">
+        <img src="unnamed.jpg" width="32px" height="32px" alt="">
+        <h4>AiNet01001</h4>
+      </a>
+      <p>19.08.2019 21:19</p>
+    </div>
+    <div class="content">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum unde molestias tempore ipsam qui eveniet obcaecati, deserunt beatae ad aut. Vitae consequatur incidunt ut quibusdam ea eos at possimus minima.
+      
+      <div class="img" imgs="4">
+        <post-img style="background-image: url(unnamed.jpg)"></post-img>
+        <post-img style="background-image: url(virtual-chain.png)"></post-img>
+        <post-img style="background-image: url(virtual-city.png)"></post-img>
+        <post-img style="background-image: url(virtual-planet.png)">
           <div class="more">
             <i>+3</i>
           </div>
-        </post-img>-->
+        </post-img>
         
       </div>
     </div>
