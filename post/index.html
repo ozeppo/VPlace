@@ -72,12 +72,9 @@
       grid-template-rows: 100px 100px;
       margin-top: 10px;
       width: 100%;
-      border: 1px solid rgba(0,0,0,0.250);
-      border-radius: 10px;
     }
-  
+    
     .post .content .img[imgs='4'] post-img:nth-child(1) {
-      display: block;
       border-top-left-radius: 10px;
       margin: 0 1px 1px 0;
       background-clip: padding-box;
@@ -89,7 +86,6 @@
     }
     
     .post .content .img[imgs='4'] post-img:nth-child(2) {
-      display: block;
       border-top-right-radius: 10px;
       margin: 0 0 1px 1px;
       background-clip: padding-box;
@@ -101,7 +97,6 @@
     }
     
     .post .content .img[imgs='4'] post-img:nth-child(3) {
-      display: block;
       border-bottom-left-radius: 10px;
       margin: 1px 1px 0 0;
       background-clip: padding-box;
@@ -113,7 +108,6 @@
     }
     
     .post .content .img[imgs='4'] post-img:nth-child(4) {
-      display: block;
       border-bottom-right-radius: 10px;
       margin: 1px 0 0 1px;
       background-clip: padding-box;
@@ -123,6 +117,64 @@
       grid-row-start: 2;
       grid-row-end: 3;
       
+    }
+    
+    .post .content .img[imgs='3'] post-img:nth-child(1) {
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      margin: 0 1px 0 0;
+      background-clip: padding-box;
+      background-size: cover;
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 1;
+      grid-row-end: 3;
+    }
+    
+    .post .content .img[imgs='3'] post-img:nth-child(2) {
+      border-top-right-radius: 10px;
+      margin: 0 0 1px 1px;
+      background-clip: padding-box;
+      background-size: cover;
+      grid-column-start: 2;
+      grid-column-end: 3;
+      grid-row-start: 1;
+      grid-row-end: 2;
+    }
+    
+    .post .content .img[imgs='3'] post-img:nth-child(3) {
+      border-bottom-right-radius: 10px;
+      margin: 1px 0 0 1px;
+      background-clip: padding-box;
+      background-size: cover;
+      grid-column-start: 2;
+      grid-column-end: 3;
+      grid-row-start: 2;
+      grid-row-end: 3;
+    }
+    
+    .post .content .img[imgs='2'] post-img:nth-child(1) {
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      margin: 0 1px 0 0;
+      background-clip: padding-box;
+      background-size: cover;
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 1;
+      grid-row-end: 3;
+    }
+    
+    .post .content .img[imgs='2'] post-img:nth-child(2) {
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+      margin: 0 0 0 1px;
+      background-clip: padding-box;
+      background-size: cover;
+      grid-column-start: 2;
+      grid-column-end: 3;
+      grid-row-start: 1;
+      grid-row-end: 3;
     }
     
     .post .content .img post-img:nth-child(4) .more {
@@ -143,8 +195,14 @@
     }
     
     .post .content .img post-img:hover {
-      transform: scale(1.1, 1.1) ;
+      transform: scale(1.1) ;
       transform: translateX(1);
+    }
+    
+    .post .content img {
+      border-radius: 10px;
+      width: 100%;
+      margin-top: 10px;
     }
   </style>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/icon.min.css">
@@ -162,15 +220,17 @@
     </div>
     <div class="content">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum unde molestias tempore ipsam qui eveniet obcaecati, deserunt beatae ad aut. Vitae consequatur incidunt ut quibusdam ea eos at possimus minima.
-      <div class="img" imgs="4" more>
+      <!--<img src="unnamed.jpg" alt="">-->
+      
+      <div class="img" imgs="3">
         <post-img style="background-image: url(unnamed.jpg)"></post-img>
         <post-img style="background-image: url(virtual-chain.png)"></post-img>
         <post-img style="background-image: url(virtual-city.png)"></post-img>
-        <post-img style="background-image: url(virtual-planet.png)">
+        <!--<post-img style="background-image: url(virtual-planet.png)">
           <div class="more">
             <i>+3</i>
           </div>
-        </post-img>
+        </post-img>-->
         
       </div>
     </div>
