@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="pl" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/icon.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      background: url(virtual-planet.png);
+      background-position: center;
+      background-size: cover;
+      background-attachment: fixed;
+      display: grid;
+      grid-template-columns: 50px 40% auto 40% 50px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body blockquote {
+      grid-column-start: 2;
+      grid-column-end: 3;
+    }
+
+    body blockquote img {
+      width: 100%;
+    }
+
+    body blockquote h1 {
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      font-size: 3vw;
+      color: #fff;
+    }
+
+    body>div {
+      grid-column-start: 4;
+      grid-column-end: 5;
+      padding-top: 80px;
+    }
+
+    body>div>div {
+      background-color: rgba(0, 0, 0, 0.750);
+      border-radius: 3px;
+      padding: 0 30px 30px 30px;
+    }
+
+    body div div form h1 {
+      margin: 0;
+      padding: 10px;
+      text-align: center;
+      color: #fff;
+    }
+
+    .input-group {
+      display: flex;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    .input-group i {
+      padding: 10px;
+      background: dodgerblue;
+      color: white;
+      min-width: 50px;
+      text-align: center;
+      margin: 0;
+      height: 35px;
+    }
+
+    .input-group input {
+      width: 100%;
+      padding: 10px;
+      outline: none;
+      border: 0;
+    }
+
+    body div div form input[type="submit"] {
+      width: 100%;
+      height: 35px;
+      background-color: dodgerblue;
+      padding: 10px;
+      outline: 0;
+      border: 0;
+      color: #fff;
+    }
+
+    body div div p {
+      color: #fff;
+      font-size: 20px;
+      text-align: center;
+      margin: 10px 0;
+    }
+
+    .grid-reg {
+      display: grid;
+      grid-template-columns: 50% 50%;
+      grid-template-rows: auto auto;
+    }
+
+    .grid-reg div:nth-child(1) {
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 1;
+      grid-row-end: 2;
+      padding-right: 2px;
+    }
+
+    .grid-reg div:nth-child(2) {
+      grid-column-start: 2;
+      grid-column-end: 3;
+      grid-row-start: 1;
+      grid-row-end: 2;
+      padding-left: 2px;
+    }
+
+    .grid-reg div:nth-child(3) {
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 2;
+      grid-row-end: 3;
+      padding-right: 2px;
+    }
+
+    .grid-reg div:nth-child(4) {
+      grid-column-start: 2;
+      grid-column-end: 3;
+      grid-row-start: 2;
+      grid-row-end: 3;
+      padding-left: 2px;
+    }
+
+    @media screen and (max-width: 1000px) {
+      body {
+        grid-template-columns: 15px auto 15px;
+        grid-template-rows: 50% 50%;
+      }
+
+      body blockquote {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+      }
+
+      body>div {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        padding-top: 0;
+      }
+      .grid-reg {
+        display: block;
+      }
+      
+      .grid-reg div {
+        padding: 0 !important;
+      }
+    }
+
+  </style>
+</head>
+
+<body>
+  <blockquote>
+    <img src="VPlace.png">
+    <h1>Witaj w VPlace</h1>
+  </blockquote>
+  <div>
+    <div>
+      <form func="login" action="#">
+        <h1>Zaloguj się</h1>
+        <div class="input-group">
+          <i class="envelope outline icon"></i>
+          <input type="email" name="email" placeholder="Email">
+        </div>
+        <div class="input-group">
+          <i class="lock icon"></i>
+          <input type="password" name="password" placeholder="Hasło">
+        </div>
+        <input type="submit" value="Zaloguj się">
+      </form>
+      <p>- LUB -</p>
+      <form func="register" action="#">
+        <h1>Zarejestruj się</h1>
+        <div class="grid-reg">
+          <div class="input-group">
+            <i class="user outline icon"></i>
+            <input type="text" name="regText1" placeholder="Imię">
+          </div>
+          <div class="input-group">
+            <i class="user outline icon"></i>
+            <input type="text" name="regText2" placeholder="Nazwisko">
+          </div>
+          <div class="input-group">
+            <i class="lock icon"></i>
+            <input type="password" name="regPass" placeholder="Hasło">
+          </div>
+          <div class="input-group">
+            <i class="lock icon"></i>
+            <input type="password" name="regPassR" placeholder="Powtórz hasło">
+          </div>
+        </div>
+        <div class="input-group">
+          <i class="envelope outline icon"></i>
+          <input type="email" name="regEmail" placeholder="Email">
+        </div>
+        <div class="input-group">
+          <i class="calendar outline icon"></i>
+          <input type="text" name="regDate" placeholder="Data urodzenia">
+        </div>
+        <input type="submit" value="Zarejestruj się">
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
